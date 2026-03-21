@@ -1,3 +1,13 @@
 theme: jekyll-theme-minimal
 title: Golden Boy
 description: Página oficial de Golden Boy, experto en desarrollo personal y stripper
+lsi: false
+safe: true
+source: /
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
