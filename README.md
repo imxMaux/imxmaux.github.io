@@ -1,2 +1,2 @@
-# imxMaux.github.io
+# Golden Boy
 Webpage oficial de Golden Boy, experto en ejercicio, rutinas completas, tips para bajar de peso, buena alimentación, y stripper.
