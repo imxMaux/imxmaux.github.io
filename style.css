@@ -29,7 +29,7 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(2, 250px);
+  grid-template-rows: repeat(2, 1200px);
   gap: 15px;
 }
 
