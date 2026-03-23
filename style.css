@@ -107,6 +107,23 @@ section {
   box-sizing: border-box;
 }
 
+#about,
+#stripper,
+#tips,
+#contacto {
+  padding: 60px 5%;
+  border-top: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+@media (max-width: 768px) {
+  #about,
+  #stripper,
+  #tips,
+  #contacto {
+    padding: 40px 20px;
+  }
+}
+
 @media (max-width: 768px) {
   .hero {
     flex-direction: column;
