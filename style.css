@@ -26,6 +26,30 @@ body {
   opacity: 0.7;
 }
 
+.goldenboy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  gap: 40px;
+}
+
+.texto {
+  flex: 1;
+  max-width: 600px;
+}
+
+.imagen {
+  flex: 1;
+  text-align: center;
+}
+
+.imagen img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 15px;
+}
+
 .galeria {
   padding: 50px;
   text-align: center;
@@ -44,6 +68,17 @@ body {
   object-fit: cover;
   object-position: top;
   border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .imagen img {
+    max-width: 250px;
+  }
 }
 
 @media (max-width: 768px) {
